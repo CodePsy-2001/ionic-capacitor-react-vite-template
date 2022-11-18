@@ -1,0 +1,45 @@
+{
+  "name": "my-react-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "ionic:build": "vite build",
+    "sync": "ionic capacitor sync",
+    "open": "ionic capacitor open"
+  },
+  "dependencies": {
+    "@capacitor/android": "4.5.0",
+    "@capacitor/app": "4.1.1",
+    "@capacitor/cli": "4.5.0",
+    "@capacitor/core": "4.5.0",
+    "@capacitor/haptics": "4.1.0",
+    "@capacitor/ios": "4.5.0",
+    "@capacitor/keyboard": "4.1.0",
+    "@capacitor/status-bar": "4.1.0",
+    "@ionic/react": "^6.3.7",
+    "@ionic/react-router": "^6.3.7",
+    "@tanstack/react-query": "^4.16.1",
+    "@tanstack/react-table": "^8.5.30",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^2.2.0",
+    "@yarnpkg/sdks": "^3.0.0-rc.29",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "sass": "^1.56.1",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4",
+    "vite-tsconfig-paths": "^3.5.2"
+  }
+}
